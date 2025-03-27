@@ -49,7 +49,7 @@ export default function Hero() {
 
   const slides = [
     {
-      image: "{ ${process.env.NODE_ENV === 'production' ? '/voices_of_bokamuso' : ''}/hero-bg.jpg",
+      image: "/hero-bg1.jpg",
       title: "Traditional Dances of the World",
       description:
         "Experience the rhythm and elegance of traditional dances passed down through generations, celebrating the rich cultural heritage of diverse communities across the globe.",
@@ -60,7 +60,7 @@ export default function Hero() {
       length: "5 min read",
     },
     {
-      image: "{ ${process.env.NODE_ENV === 'production' ? '/voices_of_bokamuso' : ''}/hero-bg2.jpg",
+      image: "/hero-bg2.jpg",
       title: "Music Festival",
       description:
         "Immerse yourself in the electrifying energy of live music, where artists and fans unite to celebrate sound, rhythm, and artistic expression in an unforgettable festival experience.",
@@ -71,7 +71,7 @@ export default function Hero() {
       length: "3 min read",
     },
     {
-      image: "{ ${process.env.NODE_ENV === 'production' ? '/voices_of_bokamuso' : ''}/hero-bg3.jpg",
+      image: "/hero-bg3.jpg",
       title: "Art and Culture",
       description:
         "Explore the captivating world of art, where creativity meets history to tell stories through paintings, sculptures, and performances that reflect the soul of civilization.",
@@ -365,7 +365,7 @@ export default function Hero() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Column - Image */}
             <Image
-              src="{ ${process.env.NODE_ENV === 'production' ? '/voices_of_bokamuso' : ''}/hero-bg3.jpg"
+              src="/hero-bg3.jpg"
               alt="About Culture Fest"
               removeWrapper
               className="w-full h-full object-cover transition-transform duration-500"
@@ -513,7 +513,7 @@ export default function Hero() {
                       className="text-black hover:bg-gray-100 flex items-center gap-2"
                     >
                       Read More
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-chevron-right-icon lucide-chevron-right">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-right-icon lucide-chevron-right">
                         <path d="m9 18 6-6-6-6"/>
                       </svg>
                     </Button>
@@ -543,7 +543,7 @@ export default function Hero() {
             <div className="space-y-3">
               <div className="relative group h-64 overflow-hidden rounded-lg shadow-md">
                 <Image
-                  src="{ ${process.env.NODE_ENV === 'production' ? '/voices_of_bokamuso' : ''}/hero-bg1.jpg"
+                  src="/hero-bg1.jpg"
                   alt="Cultural Events"
                   removeWrapper
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -566,7 +566,7 @@ export default function Hero() {
 
               <div className="relative group h-64 overflow-hidden rounded-lg shadow-md">
                 <Image
-                  src="{ ${process.env.NODE_ENV === 'production' ? '/voices_of_bokamuso' : ''}/hero-bg2.jpg"
+                  src="/hero-bg2.jpg"
                   alt="Music Concerts"
                   removeWrapper
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -591,7 +591,7 @@ export default function Hero() {
             {/* Right Column - Big Card */}
             <div className="relative group min-h-[360px] overflow-hidden rounded-lg shadow-md">
               <Image
-                src="{ ${process.env.NODE_ENV === 'production' ? '/voices_of_bokamuso' : ''}/hero-bg3.jpg"
+                src="/hero-bg3.jpg"
                 alt="Art Exhibition"
                 removeWrapper
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
